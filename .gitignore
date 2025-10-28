@@ -1,0 +1,19 @@
+# Environnements virtuels
+venv/
+__pycache__/
+
+# Données sensibles
+data/
+*.csv
+*.json
+
+# Checkpoints Jupyter
+.ipynb_checkpoints/
+
+# Fichiers temporaires
+*.log
+*.tmp
+.DS_Store
+
+# Fichiers secrets
+.env
