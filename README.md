@@ -36,20 +36,13 @@ Une interface utilisateur simple permettant de tester le modèle et d’afficher
 Installation
 Cloner le repository :
 
-bash
-Copy code
 git clone https://github.com/votre-repo/medical-misinfo-detector.git
 cd medical-misinfo-detector
 Installer les dépendances :
 
-nginx
-Copy code
 pip install torch transformers sentence-transformers faiss-cpu gradio groq requests beautifulsoup4
 Ajouter la clé API Groq pour la contre-argumentation :
 
-arduino
-Copy code
-export GROQ_API_KEY="votre_clé_api"
 Télécharger le modèle fine-tuné disponible dans /models/medical_fake_news_model.zip et le dézipper.
 
 Utilisation
@@ -141,3 +134,4 @@ Un tableau de bord de monitoring (via Streamlit ou Grafana).
 Un module de détection multimodale (texte + image).
 
 Cette évolution vise à rendre veristream-x totalement scalable, modulable et déployable en environnement industrie
+
